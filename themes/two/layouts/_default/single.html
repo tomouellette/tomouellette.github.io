@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- Individual post for thoughts -->
+
+<div class="body-fade fadeInDown">
+<div class="container">
+  <div class="twelve columns intro" style="margin-top: 2%">
+	<div id = "about">
+	<h5>{{ .Title }}</h5>
+	{{ partial "metadata.html" . }}
+	{{ .Content }}
+	</div>
+  </div>
+</div>
+</div>
+
+{{ end }}

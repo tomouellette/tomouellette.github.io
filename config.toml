@@ -1,0 +1,25 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tom W. Ouellette'
+theme = "two"
+[menu]
+  [[menu.main]]
+    name = "about"
+    pre = "about"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "papers"
+    pre = "papers"
+    url = "/papers"
+    weight = 1
+  [[menu.main]]
+    name = "code"
+    pre = "code"
+    url = "https://github.com/tomouellette"
+    weight = 2
+  [[menu.main]]
+    name = "thoughts"
+    pre = "thoughts"
+    url = "/thoughts/"
+    weight = 3

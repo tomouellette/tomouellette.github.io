@@ -1,0 +1,44 @@
+
+<div class="container">
+      <div class="row">
+        <div class="two-thirds column" style="margin-top: 10%">
+          <h3 class="head-fade fadeInDown">{{ .Site.Title }}</h3>
+        </div>
+      </div>
+    </div>
+
+<div class="body-fade fadeInDown">
+  <div class="container">
+    <div class="row">
+        <div class="twelve columns" style="margin-top: 0%">
+          <nav id="nav" class="nav">
+          {{ range .Site.Menus.main }}
+          <a class="button nav-but" href="{{ .URL }}">
+           {{ $text := print .Name | safeHTML }}
+           {{ $text }}
+          </a> 
+          {{ end }}
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <a class="button nav-but" href="https://scholar.google.com/citations?user=EHXqG2kAAAAJ&hl=en">publications</a>
+            <a class="button nav-but" href="https://github.com/tomouellette">software</a>
+            <a class="button nav-but" href="#">thoughts</a>
+<div>
+<nav id="nav" class="nav justify-content-center">
+        {{ range .Site.Menus.main }}
+        <a class="nav-link" href="{{ .URL }}">
+        {{ if .Pre }}
+        {{ $icon := printf " " .Pre | safeHTML }}
+        {{ $icon }}
+        {{ end }}
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </a>
+        {{ end }}
+    </nav>
+</div>
+ -->
