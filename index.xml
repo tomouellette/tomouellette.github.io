@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tom W. Ouellette</title>
-    <link>https://tomouellette.github.io/tomouellette/</link>
+    <link>https://tomouellette.github.io/</link>
     <description>Recent content on Tom W. Ouellette</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Aug 2021 15:30:35 -0400</lastBuildDate><atom:link href="https://tomouellette.github.io/tomouellette/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 15:30:35 -0400</lastBuildDate><atom:link href="https://tomouellette.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coming soon</title>
-      <link>https://tomouellette.github.io/tomouellette/thoughts/my-first-post/</link>
+      <link>https://tomouellette.github.io/thoughts/my-first-post/</link>
       <pubDate>Fri, 13 Aug 2021 15:30:35 -0400</pubDate>
       
-      <guid>https://tomouellette.github.io/tomouellette/thoughts/my-first-post/</guid>
+      <guid>https://tomouellette.github.io/thoughts/my-first-post/</guid>
       <description></description>
     </item>
     

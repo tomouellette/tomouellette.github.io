@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tomouellette.github.io/tomouellette/thoughts/my-first-post/</loc>
+    <loc>https://tomouellette.github.io/thoughts/my-first-post/</loc>
     <lastmod>2021-08-13T15:30:35-04:00</lastmod>
   </url><url>
-    <loc>https://tomouellette.github.io/tomouellette/thoughts/</loc>
+    <loc>https://tomouellette.github.io/thoughts/</loc>
     <lastmod>2021-08-13T15:30:35-04:00</lastmod>
   </url><url>
-    <loc>https://tomouellette.github.io/tomouellette/</loc>
+    <loc>https://tomouellette.github.io/</loc>
     <lastmod>2021-08-13T15:30:35-04:00</lastmod>
   </url><url>
-    <loc>https://tomouellette.github.io/tomouellette/categories/</loc>
+    <loc>https://tomouellette.github.io/categories/</loc>
   </url><url>
-    <loc>https://tomouellette.github.io/tomouellette/tags/</loc>
+    <loc>https://tomouellette.github.io/tags/</loc>
   </url>
 </urlset>
