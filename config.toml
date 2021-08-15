@@ -1,4 +1,4 @@
-baseURL = 'http://tomouellette.github.io/'
+baseURL = 'http://github.com/tomouellette/tomouellette.github.io/'
 languageCode = 'en-us'
 title = 'Tom W. Ouellette'
 theme = "two"
