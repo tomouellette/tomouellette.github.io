@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tom W. Ouellette</title>
-    <link>https://tomouellette.github.io/</link>
-    <description>Recent content on Tom W. Ouellette</description>
+    <title>Projects&#43;softwares on Tom W. Ouellette</title>
+    <link>https://tomouellette.github.io/projects&#43;software/</link>
+    <description>Recent content in Projects&#43;softwares on Tom W. Ouellette</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Nov 2021 23:54:07 -0400</lastBuildDate><atom:link href="https://tomouellette.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 23:54:07 -0400</lastBuildDate><atom:link href="https://tomouellette.github.io/projects+software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inferring cancer evolution using synthetic supervised learning</title>
       <link>https://tomouellette.github.io/projects&#43;software/tume/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://tomouellette.github.io/projects&#43;software/tume/</guid>
       <description>&lt;i&gt;T.W. Ouellette &amp;amp; P. Awadallla.&lt;/i&gt; &lt;br&gt; In review.</description>
-    </item>
-    
-    <item>
-      <title>Currently empty brain</title>
-      <link>https://tomouellette.github.io/thoughts/my-first-post/</link>
-      <pubDate>Fri, 13 Aug 2021 15:30:35 -0400</pubDate>
-      
-      <guid>https://tomouellette.github.io/thoughts/my-first-post/</guid>
-      <description></description>
     </item>
     
   </channel>
