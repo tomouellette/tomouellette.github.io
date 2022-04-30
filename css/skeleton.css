@@ -24,6 +24,15 @@
 - Media Queries
 */
 
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: rgba(40, 119, 222, 1);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(40, 119, 222, 0.8);
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -152,14 +161,6 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0; }
-
-
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: #1EAEDB; }
-a:hover {
-  color: #0FA0CE; }
 
 
 /* Buttons
@@ -427,7 +428,8 @@ hr {
 .nav-text:hover {
   text-decoration: underline;
 }
-.intro {
+
+.introduction {
   background-color: rgba(255,255,255,0.1);
   border-radius: 0.5em;
   padding: 1.75em;
@@ -440,8 +442,9 @@ hr {
 }
 
 #about {
-  margin-top: -1em;
-  margin-bottom: 2em;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
   font-size: 0.85em;
 }
 
@@ -459,15 +462,17 @@ hr {
 
 /* Publication cards */
 .pub {
-  line-height: 1.5em;
-  border: 1px solid rgba(255, 180, 180, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.5em;
-  font-size: 0.7em;
+  font-size: 0.85em;
+  margin-left: -1em;
   padding-left: 1em;
-  padding-top: 1.25em;
-  padding-right: 1em;
-  background-color: rgba(255,255,255,0.5);
+  padding-top: 0.5em;
+  padding-right: 0em;
+  padding-bottom: 0.5em;
+  /*background-color: rgba(0,0,0,0.05);*/
 } 
+
 .pub-title {
   margin-bottom: 0.5em;
 }
@@ -484,9 +489,10 @@ hr {
   display: inline-block;
   height: 20px;
   padding: 0 15px;
-  color: rgba(0,0,0,0.5);
+  margin-top: 1em;
+  color: rgba(0,0,0,0.8);
   text-align: center;
-  font-size: 0.5em;
+  font-size: 0.65em;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: .1rem;
@@ -501,7 +507,8 @@ hr {
 }
 
 .pub-button:hover {
-  color: rgba(255, 180, 180, 0.8);
+  color: color: rgba(0,0,0,0.3);
+  text-decoration: underline;
 }
 
 /* Larger than mobile */
