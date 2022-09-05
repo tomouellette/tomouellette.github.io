@@ -1,30 +1,77 @@
+@media only screen and (min-width: 50em) {
+  .md-main__inner {
+    left: 22%;
+    right: 22%;
+    max-width: 80em;
+  }
+  .md-tabs__inner {
+    left: 22%;
+    right: 22%;
+    max-width: 80em;
+  }
+  .md-header__inner {
+    left: 22%;
+    right: 22%;
+    max-width: 80em;
+  }
+  .md-header {    
+    max-width: 100%;
+    justify-content: center;
+  }
+  .md-sidebar--primary {
+    left: 0;
+  }
+  .md-sidebar--secondary {
+    right: 0;
+    margin-left: 0;
+    -webkit-transform: none;
+    transform: none;   
+  }
+}
+
 /* Modifies the paragraph text */
 .md-typeset p {
-    font-family: 'Helvetica Neue';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 1em;
 }
 
 /* Modifies the H1 titles in main text */
 .md-typeset h1 {
-    font-family: 'Crimson Pro';
+    font-family: 'Roboto';
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 2em;
     /* margin-bottom: 0.6em; */
 }
 
 /* Modifies the H2 titles in main text */
 .md-typeset h2 {
-    font-family: 'Crimson Pro';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 2em;
 }
 
 /* Modifies the upper left text next to favicon */
 .md-ellipsis {
-    font-family: 'Helvetica Neue';
-    font-weight: 300;
-    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.md-header {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.md-header__ellipsis {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.md-tabs {
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.md-tabs {
+    background-color: rgba(255, 255, 255, 0.78);
 }
 
 /* Modifies the footer coloring */
