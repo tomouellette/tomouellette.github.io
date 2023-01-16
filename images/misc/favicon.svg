@@ -3,8 +3,8 @@
   <rect style="stroke-dasharray: 1; stroke-width: 0.8px; fill: none; stroke: rgb(0, 0, 0);" x="28.178" y="-4.5" width="11.632" height="36.615" rx="2" ry="2" transform="matrix(0.881557, -0.472078, 0.472078, 0.881557, -7.139362, 16.05476)"/>
   <g transform="matrix(1, 0, 0, 1, -0.83593, -1.710709)">
     <circle style="fill: rgb(0, 96, 253);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, 16.184849, 5.183124)"/>
-    <circle style="fill: rgb(142, 135, 0);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, 3.931601, 5.096262)"/>
-    <circle style="fill: rgb(250, 250, 0);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, -8.321648, 5.183124)"/>
+    <circle style="fill: rgb(150, 80, 108);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, 3.931601, 5.096262)"/>
+    <circle style="fill: rgb(255, 0, 243);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, -8.321648, 5.183124)"/>
   </g>
   <circle style="fill: rgb(0, 42, 123);" cx="20.174" cy="20.062" r="4" transform="matrix(1, 0, 0, 1.000001, 3.419912, -18.807878)"/>
   <g transform="matrix(1, 0, 0, 1, -0.83593, -1.300105)">
