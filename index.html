@@ -53,7 +53,7 @@
   <div id="hint">Click anywhere to add a dot • Hidden tab pauses animation</div>
 
 <script>
-/* ==========  Part 1: fetch & show public IP (uses ipify) ========== */
+/* Show IP */
 (async function showIP() {
   const ipEl = document.getElementById('ipValue');
   const st = document.getElementById('status');
@@ -85,7 +85,7 @@
   st.textContent = '(could not fetch IP — network or CORS blocked)';
 })();
 
-/* ==========  Part 2: full-viewport canvas bouncing dots ========== */
+/* full-viewport canvas bouncing dots */
 (function bouncingDots() {
   const canvas = document.getElementById('c');
   const ctx = canvas.getContext('2d', { alpha: true });
@@ -163,7 +163,7 @@
 
   function randomRange(a, b) { return a + Math.random() * (b - a); }
   function randomColor() {
-    // pick pleasing soft neon-ish palette around teal / orange / purple
+    // palette 
     const palettes = [
       [32,187,208], // teal
       [255,138,101], // warm orange
